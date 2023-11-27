@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav a {
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid grey;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.logos {
+    padding: 15px;
+}
+.logos a {
+    text-decoration: none;
+}
+/* Estilo Home */
+
+body {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.autos-home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+.item {
+    text-align: center;
+}
+
+.item img {
+    
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 250px;
+}
+
+.item p {
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.servicios {
+    border-top: 2px solid grey;;
+}
+
+.slider {
+    width: 30cm;
+    margin-left: 110px;
+    margin-top: 10px;
+    
+}
+
+.porsche {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.servicio, .muestra-autos, .entrega-llaves {
+    margin: 10px;
+    width: 200px;
+}
+
+.instagram, .tiktok, .wsp {
+    width: 40px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo Contacto */
+.p-contacto {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Estilo Ventas */
+
+.pagani, .ferrari, .lamborghini {
+    width: 400px;
+}
+
+.header-ventas {
+    border-bottom: 5px solid #207868;
+}
+
+.main-ventas {
+    padding-top: 10px;
+}
+
+/* Estilo Ubicación */
+
+mapa
+
+.mapa  {
+    border-radius: 10px;
+}
+
+.compartir-button {
+    margin: 10px;
+}
+
+.calle {
+    text-align: center;
+}
+/* Estilo Quienes Somos */
+
+.charla, .firma {
+    width: 400px;
+    border-radius: 10px;
+}
