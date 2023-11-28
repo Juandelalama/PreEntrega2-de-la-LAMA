@@ -47,7 +47,6 @@ body {
 }
 
 .item img {
-    
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -92,7 +91,7 @@ ul li {
 }
 
 p {
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 h1 {
