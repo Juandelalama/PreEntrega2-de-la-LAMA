@@ -49,6 +49,22 @@ body {
     grid-gap: 20px;
     padding: 20px;
 }
+@media (max-width: 768px) {
+    .autos-home {
+        display: block;
+    }
+}
+@media (max-width: 1024px) {
+    .autos-home {
+        display: block;
+    }
+}
+@media (min-width: 1200px) {
+    .autos-home {
+        display: flex;
+    }
+}
+
 .item {
     text-align: center;
 }
@@ -95,7 +111,12 @@ ul li {
     border-radius: 20px;
     padding: 5px;
 }
-
+#auto-nuevo {
+    transition: transform 0.3s ease-out;
+}
+#auto-nuevo:hover {
+    transform: scale(1.05);
+}
 p {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
@@ -137,10 +158,6 @@ mapa
 
 .mapa  {
     border-radius: 10px;
-}
-
-.compartir-button {
-    margin: 10px;
 }
 
 .calle {
