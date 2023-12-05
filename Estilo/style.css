@@ -232,6 +232,16 @@ textarea {
     padding-left: 120px;
     
 }
+
+.cards-text {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    font-size: 20px;
+}
+.card-img-top {
+    padding-top: 25px;
+}
 /* Estilo Ubicación */
 
 mapa
