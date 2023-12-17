@@ -1,3 +1,35 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+/* Globals */
+body {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+/* Header Style */
+header .navbar {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 4px solid grey;
+}
+header .navbar .container-fluid {
+  width: 100%;
+}
+header .navbar .container-fluid .a-logo .logo {
+  width: 40px;
+  border-radius: 40px;
+}
+header .navbar .container-fluid .div-nav a {
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 
 /*# sourceMappingURL=style.css.map */
