@@ -9,7 +9,7 @@
     }
 }
 
-/*Media Querie Tabler Ventas*/
+/*Media Querie Tablet Ventas*/
 @media screen and (max-width: 1024px) {
     .main-ventas {
         .h1-ventas {
@@ -22,4 +22,32 @@
             grid-gap: 20px;
         }
     }
+}
+
+/*Media Querie Tablet Ubicación*/
+
+@media screen and (max-width: 1024px) {
+    .main-ubicación {
+        h1 {
+            text-align: center;
+        }
+        .section-ubi {
+            .calle {
+                text-align: center;
+            }
+            .mapa-container {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                .responsive-iframe {
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+
 }

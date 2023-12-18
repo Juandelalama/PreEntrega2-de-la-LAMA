@@ -13,3 +13,19 @@
         text-align: left;
     }
 }
+
+/*Media Querie Desktop Ubicación*/
+
+@media (max-width: 1024px) {
+    .main-ubicación {
+        .section-ubi {
+            .mapa-container {
+                padding-left: 400px;
+                .responsive-iframe {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}

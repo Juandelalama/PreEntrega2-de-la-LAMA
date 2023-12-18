@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Reset */
 * {
   padding: 0;
@@ -128,7 +129,7 @@ footer .logos a .logos-redes {
   transition: background-color 1s ease-out;
   outline: 0;
 }
-.main-contacto .content .div-contact .contact-form form input, .main-contacto .content .div-contact .contact-form form textarea, .main-contacto .content .div-contact .contact-form form button {
+.main-contacto .content .div-contact .contact-form form button, .main-contacto .content .div-contact .contact-form form input, .main-contacto .content .div-contact .contact-form form textarea {
   width: 100%;
   padding: 0.7em;
   border: none;
@@ -168,6 +169,28 @@ footer .logos a .logos-redes {
   list-style: none;
   padding: 0;
 }
+
+/* Main Ubicación Style*/
+.main-ubicación h1 {
+  text-align: center;
+}
+.main-ubicación .section-ubi .calle {
+  text-align: center;
+}
+.main-ubicación .section-ubi .mapa-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-ubicación .section-ubi .mapa-container iframe {
+  width: 80%;
+  height: 60vh;
+  border: none;
+}
+
 /*Media Querie Desktop Home*/
 @media (min-width: 700px) {
   .contact-wrapper {
@@ -183,13 +206,23 @@ footer .logos a .logos-redes {
     text-align: left;
   }
 }
+/*Media Querie Desktop Ubicación*/
+@media (max-width: 1024px) {
+  .main-ubicación .section-ubi .mapa-container {
+    padding-left: 400px;
+  }
+  .main-ubicación .section-ubi .mapa-container .responsive-iframe {
+    width: 200px;
+    height: 200px;
+  }
+}
 /* Media Querie Tablet Home*/
 @media screen and (max-width: 1024px) {
   .main-index .servicios .autos-home {
     display: block;
   }
 }
-/*Media Querie Tabler Ventas*/
+/*Media Querie Tablet Ventas*/
 @media screen and (max-width: 1024px) {
   .main-ventas .h1-ventas {
     text-align: center;
@@ -201,10 +234,49 @@ footer .logos a .logos-redes {
     grid-gap: 20px;
   }
 }
+/*Media Querie Tablet Ubicación*/
+@media screen and (max-width: 1024px) {
+  .main-ubicación h1 {
+    text-align: center;
+  }
+  .main-ubicación .section-ubi .calle {
+    text-align: center;
+  }
+  .main-ubicación .section-ubi .mapa-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .main-ubicación .section-ubi .mapa-container .responsive-iframe {
+    border-radius: 10px;
+  }
+}
 /* Media Mobile Home*/
 @media screen and (max-width: 768px) {
   .main-index .servicios .autos-home {
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  .main-ubicación h1 {
+    text-align: center;
+  }
+  .main-ubicación .section-ubi .calle {
+    text-align: center;
+  }
+  .main-ubicación .section-ubi .mapa-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .main-ubicación .section-ubi .mapa-container .responsive-iframe {
+    border-radius: 10px;
   }
 }
 
