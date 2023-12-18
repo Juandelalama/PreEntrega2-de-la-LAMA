@@ -1,0 +1,21 @@
+/*Main-ventas Style*/
+
+.main-ventas {
+    padding-top: 10px;
+    .h1-ventas {
+
+    }
+    .cards-ventas {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding-left: 120px;
+        .cards-text {
+            text-align: left;
+            display: grid;
+            grid-template-columns: repeat(1, 3fr);
+            font-size: 20px;
+        }
+    }
+}

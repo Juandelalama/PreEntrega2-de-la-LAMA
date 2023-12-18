@@ -1,0 +1,11 @@
+/* Media Mobile Home*/
+
+@media screen and (max-width: 768px) {
+    .main-index {
+        .servicios{
+            .autos-home {
+                display: block;
+            }
+        }
+    }
+}

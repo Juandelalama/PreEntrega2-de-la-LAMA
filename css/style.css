@@ -32,4 +32,180 @@ header .navbar .container-fluid .div-nav a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/* Footer Style*/
+footer {
+  text-align: center;
+  padding-top: 30px;
+}
+footer #auto-nuevo {
+  transition: transform 0.3s ease-out;
+}
+footer #auto-nuevo:hover {
+  transform: scale(1.05);
+}
+footer .logos {
+  padding: 15px;
+}
+footer .logos a {
+  text-decoration: none;
+}
+footer .logos a .logos-redes {
+  width: 40px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/*Main-index Style*/
+.main-index .servicios {
+  border-top: 4px solid grey;
+}
+.main-index .servicios .autos-home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+.main-index .servicios .autos-home .item {
+  text-align: center;
+}
+.main-index .servicios .autos-home .item #imagen-autos-main {
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 250px;
+}
+.main-index .servicios .autos-home #main-autos {
+  transition: transform 0.3s ease-out;
+}
+.main-index .servicios .autos-home #main-autos:hover {
+  transform: scale(1.05);
+}
+.main-index .servicios .autos-home #main-autos .texto-imagen-main {
+  margin-top: 10px;
+}
+
+/*Main-ventas Style*/
+.main-ventas {
+  padding-top: 10px;
+}
+.main-ventas .cards-ventas {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-left: 120px;
+}
+.main-ventas .cards-ventas .cards-text {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  font-size: 20px;
+}
+
+/* Main-contacto Style */
+.main-contacto .content .logo-contacto {
+  text-align: center;
+  font-size: 3em;
+}
+.main-contacto .content .logo-contacto .span-contacto {
+  color: rgb(14, 135, 183);
+}
+.main-contacto .content .div-contact .contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  padding: 1em;
+}
+.main-contacto .content .div-contact .contact-form {
+  background: #222222;
+}
+.main-contacto .content .div-contact .contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main-contacto .content .div-contact .contact-form form button:hover, .main-contacto .content .div-contact .contact-form form button:focus {
+  background: rgb(14, 135, 183);
+  color: white;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+.main-contacto .content .div-contact .contact-form form input, .main-contacto .content .div-contact .contact-form form textarea, .main-contacto .content .div-contact .contact-form form button {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: white;
+  border-bottom: 1px solid rgb(14, 135, 183);
+}
+.main-contacto .content .div-contact .contact-form form button {
+  background: rgb(14, 135, 183);
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  border-radius: 5px;
+}
+.main-contacto .content .div-contact .contact-form form .block {
+  grid-column: 1/3;
+}
+.main-contacto .content .div-contact .contact-form form label {
+  display: block;
+}
+.main-contacto .content .div-contact .contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+.main-contacto .content .div-contact .contact-form form p .text-area1 {
+  resize: none;
+}
+.main-contacto .content .div-contact .contact-info {
+  background: #000;
+}
+.main-contacto .content .div-contact .contact-info h4, .main-contacto .content .div-contact .contact-info ul, .main-contacto .content .div-contact .contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+.main-contacto .content .div-contact .contact-info .ul-contacto {
+  list-style: none;
+  padding: 0;
+}
+/*Media Querie Desktop Home*/
+@media (min-width: 700px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left;
+  }
+}
+/* Media Querie Tablet Home*/
+@media screen and (max-width: 1024px) {
+  .main-index .servicios .autos-home {
+    display: block;
+  }
+}
+/*Media Querie Tabler Ventas*/
+@media screen and (max-width: 1024px) {
+  .main-ventas .h1-ventas {
+    text-align: center;
+    padding-left: 65px;
+  }
+  .main-ventas .cards-ventas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+}
+/* Media Mobile Home*/
+@media screen and (max-width: 768px) {
+  .main-index .servicios .autos-home {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

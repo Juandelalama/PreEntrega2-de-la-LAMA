@@ -1,6 +1,19 @@
+//Import Utilities
 @import 'utilities/reset';
 
 @import 'utilities/globals';
-
+//Import Components
 @import 'components/header';
 
+@import 'components/footer';
+//Imports Pages
+@import 'pages/main-index';
+@import 'pages/main-ventas';
+@import 'pages/main-contacto';
+
+//Imports Media Queries
+
+@import 'utilities/mediaDesktop';
+@import 'utilities/mediaTablet';
+
+@import 'utilities/mediaMobile';

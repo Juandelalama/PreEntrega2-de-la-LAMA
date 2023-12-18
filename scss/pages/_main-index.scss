@@ -1,0 +1,31 @@
+/*Main-index Style*/
+.main-index {
+    .servicios {
+        border-top: 4px solid grey;
+        .autos-home {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 20px;
+            .item {
+                text-align: center;
+                #imagen-autos-main {
+                    height: auto;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+            #main-autos {
+                transition: transform 0.3s ease-out;
+                &:hover {
+                transform: scale(1.05);
+                }
+                .texto-imagen-main {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

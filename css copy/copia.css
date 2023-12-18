@@ -33,15 +33,15 @@
 
 
 
-.autos-home {
+/* .autos-home {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding: 20px;
-}
+} */
 
 
-.item {
+/* .item {
     text-align: center;
 }
 .item img {
@@ -50,26 +50,26 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 400px;
     height: 250px;
-}
+} */
 
-.item p {
+/* .item p {
     margin-top: 10px;
-}
+} */
 
 ul li {
     display: inline;
     padding-left: 20px;
 }
 
-.servicios {
-    border-top: 4px solid grey;;
-}
+/* .servicios {
+    border-top: 4px solid grey;
+} */
 
-.slider {
+.quienes-somos-main {
     width: 30cm;
     margin-left: 110px;
     margin-top: 10px;
-    
+
 }
 
 .porsche {
@@ -82,7 +82,8 @@ ul li {
     width: 200px;
 }
 
-.instagram, .tiktok, .wsp {
+/* fOOOTER */
+/* .logos-redes {
     width: 40px;
     border-radius: 20px;
     padding: 5px;
@@ -93,6 +94,20 @@ ul li {
 #auto-nuevo:hover {
     transform: scale(1.05);
 }
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.logos {
+    padding: 15px;
+}
+.logos a {
+    text-decoration: none;
+} */
+
+/* FIN FOOTER */
 p {
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
@@ -110,21 +125,21 @@ h3 {
 
 /* Estilo Contacto */
 
-.ul-contacto {
+/* .ul-contacto {
     list-style: none;
     padding: 0;
-}
+} */
 
-.logo-contacto {
+/* .logo-contacto {
     text-align: center;
     font-size: 3em;
-}
-textarea {
+} */
+/* textarea {
     resize: none;
-}
-.logo.contacto .span-contacto {
+} */
+/* .logo.contacto .span-contacto {
     color: rgb(14, 135, 183);
-}
+} */
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
@@ -194,7 +209,7 @@ textarea {
     margin: 0 0 1rem 0;
 }
 
-/* LARGE SIZE */
+/* LARGE SIZE Contacto */
 @media(min-width: 700px) {
     .contact-wrapper {
         display: grid;
@@ -208,42 +223,32 @@ textarea {
     .contact-info p {
         text-align: left;
     }
-} 
+}
 
 
 /* Estilo Ventas */
 
 
 
-.pagani, .ferrari, .lamborghini {
-    width: 400px;
-}
 
-.header-ventas {
-    border-bottom: 5px solid #207868;
-}
-
-.main-ventas {
+/* .main-ventas {
     padding-top: 10px;
-}
-.cards-ventas {
+} */
+/* .cards-ventas {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     padding-left: 120px;
-    
-}
 
-.cards-text {
+} */
+
+/* .cards-text {
     text-align: left;
     display: grid;
     grid-template-columns: repeat(1, 3fr);
     font-size: 20px;
-}
-.card-img-top {
-    padding-top: 25px;
-}
+} */
 /* Estilo Ubicación */
 .mapa {
     position: relative;
@@ -278,19 +283,13 @@ textarea {
     border-radius: 10px;
 }
 
+.quienes-somos-main {
+    width: 30cm;
+    margin-left: 110px;
+    margin-top: 10px;
 
-/* Footer */
-footer {
-    text-align: center;
-    padding-top: 30px;
 }
 
-.logos {
-    padding: 15px;
-}
-.logos a {
-    text-decoration: none;
-}
 
 
 /*Media-Home*/
@@ -299,7 +298,7 @@ footer {
     .autos-home {
         display: block;
     }
-} 
+}
 
 @media (max-width: 768px) {
     .autos-home {
@@ -313,7 +312,7 @@ footer {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 20px;
-        
+
 }
 
     .h1-ventas {
@@ -323,13 +322,13 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-    
+
 }
 /*Media-Ubicación*/
 @media screen and (max-width: 768px) {
     .mapa {
         margin-left: 75px;
     }
-    
+
 }
 
